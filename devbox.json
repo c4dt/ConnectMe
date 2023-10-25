@@ -1,0 +1,29 @@
+{
+  "packages": [
+    "nodejs@12",
+    "yarn@latest",
+    "jdk@11",
+    "gitlab-runner@latest",
+    "android-tools@34",
+    "git@latest",
+    "sdkmanager@latest",
+    "less@latest",
+    "vim@latest"
+  ],
+  "env": {
+    "ANDROID_SDK_ROOT": "/opt/android-sdk/",
+    "TERM_PROGRAM": "Apple_Terminal"
+  },
+  "shell": {
+    "init_hook": [
+      "test -d $ANDROID_SDK_ROOT/licenses || ( echo; echo 'ERROR: Please run \"devbox run sdk\" outside of devbox' )",
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "sdk": [
+        "test -d $ANDROID_SDK_ROOT || ( sudo mkdir -p $ANDROID_SDK_ROOT; sudo chmod 777 $ANDROID_SDK_ROOT )",
+        "test -d $ANDROID_SDK_ROOT/licenses || ( yes | sdkmanager --licenses )"
+      ]
+    }
+  }
+}

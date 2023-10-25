@@ -1,0 +1,176 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "android-tools@34": {
+      "last_modified": "2023-09-27T18:02:17Z",
+      "resolved": "github:NixOS/nixpkgs/517501bcf14ae6ec47efd6a17dda0ca8e6d866f9#android-tools",
+      "source": "devbox-search",
+      "version": "34.0.1",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/mybmxwg02cdsicpsskxxkbak3kpndxan-android-tools-34.0.1"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/vycffswim5hyd6qarbvkm9imz0c378vs-android-tools-34.0.1"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/b4hn2zgplkpk64jbc52dr0pcc8zcfsv6-android-tools-34.0.1"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/iwhbip5jp12gw378cwdpb0w98v1xkp1x-android-tools-34.0.1"
+        }
+      }
+    },
+    "git@latest": {
+      "last_modified": "2023-09-27T18:02:17Z",
+      "resolved": "github:NixOS/nixpkgs/517501bcf14ae6ec47efd6a17dda0ca8e6d866f9#git",
+      "source": "devbox-search",
+      "version": "2.42.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/kwpgj2rpza5i43jmvxx2d6rya5ay92pc-git-2.42.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/l1572f7d81n8wmqdf899kk3kmpdb0amf-git-2.42.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/r7la50prsws136rj6ynj0vp3pwws0yly-git-2.42.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/7smkn8cidx17la9ny5vfvghrwfxwbrny-git-2.42.0"
+        }
+      }
+    },
+    "gitlab-runner@latest": {
+      "last_modified": "2023-09-27T18:02:17Z",
+      "resolved": "github:NixOS/nixpkgs/517501bcf14ae6ec47efd6a17dda0ca8e6d866f9#gitlab-runner",
+      "source": "devbox-search",
+      "version": "16.4.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/6cpm1hk5z4ax18s4xv3id6mkdcl6zm9c-gitlab-runner-16.4.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/s08imd6qsrinp8pnpal3yq5a2hs4y5kx-gitlab-runner-16.4.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/qyp6i7pfncx9mg71dq59lvkw3x6xd3x4-gitlab-runner-16.4.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/v89hwfc2hyv5gv5gbz65fls2w0msiyvi-gitlab-runner-16.4.0"
+        }
+      }
+    },
+    "jdk@11": {
+      "last_modified": "2023-10-11T07:26:37Z",
+      "resolved": "github:NixOS/nixpkgs/01441e14af5e29c9d27ace398e6dd0b293e25a54#jdk11",
+      "source": "devbox-search",
+      "version": "11.0.20",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/y0d1kc9mwscnsp5431d9mc2h75zbml17-zulu11.66.15-ca-jdk-11.0.20"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/1cm5cf7q4avxq1k0pdd1v675hspxnwar-zulu11.66.15-ca-jdk-11.0.20"
+        }
+      }
+    },
+    "less@latest": {
+      "last_modified": "2023-09-27T18:02:17Z",
+      "resolved": "github:NixOS/nixpkgs/517501bcf14ae6ec47efd6a17dda0ca8e6d866f9#less",
+      "source": "devbox-search",
+      "version": "643",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/facz0bswwbf87d7n84dhn8can3d5v08p-less-643"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/p2x4mims08fi1954wfhm2dg7fajxdb2s-less-643"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/m70vvngd8y2l4pj2jbjn3a8pnn2yl9qh-less-643"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/p7wwa5704yn07pygsxyr9qafcnhh26vh-less-643"
+        }
+      }
+    },
+    "nodejs@12": {
+      "last_modified": "2022-05-03T02:40:48Z",
+      "resolved": "github:NixOS/nixpkgs/24c33ab7952544ad355d0677c9eea931b23f371c#nodejs-12_x",
+      "source": "devbox-search",
+      "version": "12.22.12",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/qb98g603pxkxb80mb6kpzpdd0dbal8da-nodejs-12.22.12"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/2addm15hhqi1vfwg4aip6mznxvas9nw7-nodejs-12.22.12"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/aakd4293fm9pl61kgr01l4prp5j8p6vf-nodejs-12.22.12"
+        }
+      }
+    },
+    "sdkmanager@latest": {
+      "last_modified": "2023-09-27T18:02:17Z",
+      "resolved": "github:NixOS/nixpkgs/517501bcf14ae6ec47efd6a17dda0ca8e6d866f9#sdkmanager",
+      "source": "devbox-search",
+      "version": "0.6.5",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/82qqw21mxzp5z7dr8yig050mn70j3w1f-python3.10-sdkmanager-0.6.5"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/k2axmxymjvxmm9fzqdjghhiy2hdgnxkq-python3.10-sdkmanager-0.6.5"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/bmjym0qmxgcz57w3glxdq5bcr17snv45-python3.10-sdkmanager-0.6.5"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/gwlx8grq9m4yq7if5yjd4xn77any8mim-python3.10-sdkmanager-0.6.5"
+        }
+      }
+    },
+    "vim@latest": {
+      "last_modified": "2023-09-27T18:02:17Z",
+      "resolved": "github:NixOS/nixpkgs/517501bcf14ae6ec47efd6a17dda0ca8e6d866f9#vim",
+      "source": "devbox-search",
+      "version": "9.0.1897",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/ljl4mh36bsr1sk7gagyn2v2hsn4b880s-vim-9.0.1897"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/h12mgqn9wgvwlpwsdpxzjjs205awlhyv-vim-9.0.1897"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/an96p2a9l235cyw0iiq9brqhlwd43jpl-vim-9.0.1897"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/mspb2bklaqssjwpmcicwvsmqrh1ffb96-vim-9.0.1897"
+        }
+      }
+    },
+    "yarn@latest": {
+      "last_modified": "2023-09-27T18:02:17Z",
+      "resolved": "github:NixOS/nixpkgs/517501bcf14ae6ec47efd6a17dda0ca8e6d866f9#yarn",
+      "source": "devbox-search",
+      "version": "1.22.19",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/bgskrpwr2mhjz8iaiwffqm3yp513dp50-yarn-1.22.19"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/lvnq6659c1ll4h0zpbjp6syqm5szhjsp-yarn-1.22.19"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/1i5grwcqqxiaid655ba6a59j46p642ix-yarn-1.22.19"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/i2d711xk76lzfd817wrg76czlljq2yjv-yarn-1.22.19"
+        }
+      }
+    }
+  }
+}
