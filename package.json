@@ -122,7 +122,7 @@
     "@babel/plugin-proposal-class-properties": "^7.7.0",
     "@babel/plugin-proposal-decorators": "7.7.0",
     "@babel/runtime": "^7.12.5",
-    "axios": "^0.18.0",
+    "axios": "^1.6.0",
     "babel-eslint": "10.0.3",
     "babel-jest": "^26.6.3",
     "babel-plugin-jest-hoist": "24.9.0",
